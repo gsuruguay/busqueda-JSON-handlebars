@@ -18,6 +18,6 @@ Contiene solo 2 endpoints
 * GET /disco: consulta de discos, recibe por query string los filtros. Busca en los datos que estén en el archivo discos.json y renderiza los resultados de los discos coincidentes.
 
 ## Instalación
-* Clonar el proyecto con *git clone https://github.com/gsuruguay/busqueda-JSON-handlebars.git*
-* Ejecutar por consola desde la carpeta raiz del proyecto *npm install para instalar las dependencias express y express-handlebars *
-* Se accede por *http://localhost:3456/*
+* Clonar el proyecto con **git clone https://github.com/gsuruguay/busqueda-JSON-handlebars.git**
+* Ejecutar por consola desde la carpeta raiz del proyecto **npm install** para instalar las dependencias express y express-handlebars
+* Se accede por **http://localhost:3456/**
