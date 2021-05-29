@@ -1,0 +1,11 @@
+<h3 id="titResultados">{{textoResultado}}:</h3>
+{{#each resDiscos}}
+<div class="card text-center">
+                    <img src="{{this.tapa}}" class="card-img-top" alt="Tapa de {{this.titulo}}">
+                    <div class="card-body">
+                    <h5 class="card-title">{{this.artista}}</h5>
+                    <p class="card-text">{{this.titulo}} - {{this.lanzamiento}}</p>
+                    </div>
+                </div>
+{{/each}}
+
